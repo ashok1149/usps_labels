@@ -36,8 +36,8 @@ address_image_path = r'E:\usps images\address image.png'
 # Image sizing and placement (values should be fine-tuned based on your label layout)
 image_width = 125  
 image_height = 38   
-x_pos = 7          
-y_pos = 270        
+x_pos = 7     #adjust the value down to move to the left     
+y_pos = 270   #adjust the value down to move to the down    
 
 print(f"Processing files in: {input_folder_path}")
 
