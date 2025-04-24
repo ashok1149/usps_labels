@@ -31,13 +31,13 @@ def insert_image_into_pdf(usps_label_pdf, address_image_path, output_pdf, image_
 # Specify the folder path containing the USPS labels and the output path
 input_folder_path = r'E:\usps_labels'  # Folder containing USPS labels
 output_folder_path = r'E:\usps output'  # Folder to save modified files
-address_image_path = r'E:\usps images\address image.png'
+address_image_path = r'E:\usps images\New_address.png'
 
 # Image sizing and placement (values should be fine-tuned based on your label layout)
-image_width = 125  
-image_height = 38   
-x_pos = 7     #adjust the value down to move to the left     
-y_pos = 270   #adjust the value down to move to the down    
+image_width = 170  #should be 140
+image_height = 41   
+x_pos = 7     #adjust the value down to move to the left   #for china label value should be 4,  for shopify 13
+y_pos = 285   #adjust the value down to move to the down   #for china label value should be 293 , for shopify 277
 
 print(f"Processing files in: {input_folder_path}")
 
